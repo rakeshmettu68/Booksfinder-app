@@ -1,5 +1,44 @@
-For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+Build a Book Finder App using React, TypeScript, and TailwindCSS.
 
-By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+Requirements:
 
-Use icons from lucide-react for logos.
+The app is for a college student named Alex who wants to search for books easily.
+
+Use the Open Library Search API:
+https://openlibrary.org/search.json?title={bookTitle}
+
+Features:
+
+A search bar where Alex can type a book title and either press Enter or click Search.
+
+Fetch results from the API and display them in a responsive grid of book cards.
+
+Each book card should show:
+
+Cover image (or a placeholder if missing).
+
+Book title.
+
+Author(s).
+
+First publish year.
+
+Show a loading spinner while fetching results.
+
+Show "No results found" if nothing matches.
+
+Handle API errors gracefully.
+
+UI / Styling:
+
+Use TailwindCSS for styling.
+
+Mobile-first responsive design.
+
+Cards with rounded corners, shadows, and hover effects.
+
+Bonus (if time allows):
+
+Add pagination or infinite scroll.
+
+Add filters by author or year.
